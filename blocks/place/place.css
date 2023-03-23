@@ -1,5 +1,14 @@
 .place {
+  max-width: 984px;
   display: grid;
   grid-template-columns: minmax(auto, 460px) minmax(auto, max-content);
   gap: 48px 40px;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    gap: 48px 32px;
+    grid-template-columns: minmax(auto, 440px) minmax(auto, max-content);
+  }
 }

@@ -7,3 +7,10 @@
   padding-top: 56px;
   box-sizing: border-box;
 }
+
+@media (max-width: 1024px) {
+  .lead {
+    padding-top: 48px;
+    max-width: 928px;
+  }
+}

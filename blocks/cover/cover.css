@@ -8,3 +8,9 @@
   background: url('../../images/cover/cover-trains.jpg') center/cover no-repeat;
   z-index: 2;
 }
+
+@media (max-width: 1024px) {
+  .cover {
+  max-width: 100%;
+  }
+}
