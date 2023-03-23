@@ -1,0 +1,10 @@
+.cover {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1184px;
+  width: 100%;
+  max-height: 740px;
+  padding-bottom: 62.5%;
+  background: url('../../images/cover/cover-trains.jpg') center/cover no-repeat;
+  z-index: 2;
+}
