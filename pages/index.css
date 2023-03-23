@@ -1,0 +1,15 @@
+/* normalize */
+@import url(../vendor/normalize.css);
+
+/* Шрифты */
+@import url(../fonts/Inter_Web/inter.css);
+
+/* Блок page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__wrapper/page__wrapper.css);
+
+/* Блок logo */
+@import url(../blocks/logo/logo.css);
+
+/* Блок ВРЕМЕННЫЙ */
+@import url(../blocks/header_lead.css);
