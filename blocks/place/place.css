@@ -1,7 +1,7 @@
 .place {
   max-width: 984px;
   display: grid;
-  grid-template-columns: minmax(auto, 460px) minmax(auto, max-content);
+  grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
   gap: 48px 40px;
 }
 
@@ -9,6 +9,14 @@
   .place {
     max-width: 928px;
     gap: 48px 32px;
-    grid-template-columns: minmax(auto, 440px) minmax(auto, max-content);
+    grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    gap: 48px 28px;
+    grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
   }
 }

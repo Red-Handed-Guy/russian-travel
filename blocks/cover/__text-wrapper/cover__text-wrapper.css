@@ -14,3 +14,9 @@
     padding-top: 19.04%;
   }
 }
+
+@media (max-width: 768px) {
+  .cover__text-wrapper {
+    padding-top: 14.97%;
+  }
+}
