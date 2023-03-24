@@ -1,5 +1,12 @@
 .header__lang-links {
   display: flex;
   column-gap: 18px;
-  padding-top: 18px;
+  padding-top: 16px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 320px) {
+  .header__lang-links {
+    padding-top: 12px;
+  }
 }
