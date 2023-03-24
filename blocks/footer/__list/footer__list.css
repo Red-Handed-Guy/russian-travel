@@ -6,7 +6,7 @@
   gap: 0 18px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 756px) {
   .footer__list {
     margin: 0 0 48px 0;
   }
