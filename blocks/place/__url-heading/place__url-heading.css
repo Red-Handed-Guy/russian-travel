@@ -5,6 +5,7 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #aaa;
+  font-weight: 400;
 }
 
 @media (max-width: 320px) {

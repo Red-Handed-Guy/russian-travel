@@ -2,7 +2,7 @@
 @import url(../vendor/normalize.css);
 
 /* Шрифты */
-@import url(../fonts/Inter_Web/inter.css);
+@import url(../fonts/inter/inter.css);
 
 /* Блок page */
 @import url(../blocks/page/page.css);
@@ -21,7 +21,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_type/header__lang-link_type_selected.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 
 /* Блок main */
 @import url(../blocks/main/main.css);
@@ -63,9 +63,8 @@
 
 /* Блок cover */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__overlay-link/cover__overlay-link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__text-wrapper/cover__text-wrapper.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
 /* Блок footer */

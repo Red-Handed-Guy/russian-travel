@@ -3,7 +3,9 @@
   position: relative;
   max-width: 1184px;
   width: 100%;
-  padding-bottom: 62.5%;
+  aspect-ratio: 8/5;
   background: url('../../images/cover/cover-trains.jpg') center/cover no-repeat;
-  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
