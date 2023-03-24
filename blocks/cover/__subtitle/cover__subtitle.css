@@ -5,3 +5,11 @@
   margin: 0;
   max-width: 360px;
 }
+
+@media (max-width: 700px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

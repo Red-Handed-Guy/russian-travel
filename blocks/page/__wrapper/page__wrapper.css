@@ -8,3 +8,10 @@
   padding: 28px 0 24px 0;
   box-sizing: border-box;
 }
+
+
+@media (max-width: 320px) {
+  .page__wrapper {
+    padding: 16px 0 24px 0;
+  }
+}
